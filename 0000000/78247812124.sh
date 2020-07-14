@@ -16,3 +16,5 @@ else
 	rm -rf /var/log/syslog*
 	find /home/ /root/ -name .bash_history -exec rm {} \;
 fi
+
+echo Done
